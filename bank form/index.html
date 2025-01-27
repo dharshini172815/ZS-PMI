@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>BANK ACCOUNT REGISTRATION FORM</h1>
+    
+    <fieldset>
+    <legend><h2>Account Information</h2></legend>
+    
+    <label>Account type</label>
+    <select name="account" required>
+        <option value=" "> </option>
+        <option value="savings">Savings Account</option>
+        <option value="salary">Salary Account</option>
+        <option value="current">Current Account</option>
+        <option value="fixed">Fixed Deposit Account</option>
+        <option value="primary">Primary Account</option>
+    </select><span></span>
+    <label>Currency type</label>
+    <select name="currency" required>
+        <option value=" "> </option>
+        <option value="eur">Euro (EUR)</option>
+        <option value="india">Indian Rupee (INR) </option>
+        <option value="aus">Australian Dollar (AUD) </option>
+        <option value="us">US Dollar (USD)</option>
+        <option value="japen">Japenese yen (JPY) </option>
+    </select><br><br>
+    </fieldset>
+    
+    <fieldset>
+    <legend><h2>Personal information</h2></legend>
+    <p>The information given in this section is considered as the information of the primary account information</p>
+    
+    <h3>Name</h3>
+    <select name="init" required>
+        <option value="mr">Mr.</option>
+        <option value="ms">Ms.</option>
+        <option value="mrs">Mrs.</option>
+    </select>
+    <input type="text" name="fname" placeholder="Enter first name" required >
+    <input type="text"  name="lname" placeholder="Enter last name" required >
+    
+    <h3>Phone number</h3>
+    <input type="number" placeholder="00000 00000" required>
+    
+    <h3>Date of Birth</h3>
+    <input type="date" placeholder="MM-DD-YYYY" required>
+    
+    <h3>Residential Address</h3>
+    <input type="text" placeholder="street address" required>
+    <input type="text" placeholder="street address line 2">
+    <input type="text" placeholder="city" required>
+    <input type="text" placeholder="state" required>
+    <input type="number" placeholder="pin code" required>
+    <select name="country" placeholder="select country" required>
+        <option value="aus">Australia</option>
+        <option value="ind">India</option>
+        <option value="usa">USA</option>
+        <option value="singapore">Singapore</option>
+        <option value="france">France</option>
+        <option value="nether">Netherland</option>
+        <option value="mexico">Mexico</option>
+        <option value="germany">Germany</option>
+        <option value="canada">Canada</option>
+    </select><br>
+    
+    <h3>Marital status</h3>
+    <select name="marital">
+        <option value="married">Married</option>
+        <option value="unmarried">Unmarried</option>
+    </select>
+    
+    <h3>Occupation</h3>
+    <input type="text" required>
+    
+    <h3>Employee name</h3>
+    <input type="text" required>
+    
+    <p>Do you want to add joint owner to the bank account?</p>
+    <input type="radio" name="joint">Yes
+    <input type="radio" name="joint">No
+    </fieldset>
+    
+    <fieldset>
+    <legend><h2>Joint Owner information</h2></legend>
+    <p>By signing this form, I acknowledge that the information I've given in this form is accurate and i agree at the terms
+    and conditions.</p>
+    
+    <input type="checkbox" name="term">I agree to <a href=" " target="_blank" required>terms & conditions.</a>
+    
+    <h3>Date</h3>
+    <input type="date" placeholder="MM-DD-YYYY">
+    
+    <h3>Primary Owner Signature</h3>
+    <input type="file" name="sign"><br>
+    <span>*should be less than 2mb file</span>
+    </fieldset>
+    
+    <center><input type="submit" value="Submit" style="font-size:15px;
+        width:200px;
+        background-color:black;
+        color:white;
+        padding:10px;
+        border-radius: 15px;
+        margin:15px;
+        cursor:pointer;"></center>
+    
+    </body>
+</html>

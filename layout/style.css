@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head {
+    text-align: center;
+    background-image: url('./img/head.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    font-size: 22px;
+}
+.nav {
+    text-align: center;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    box-shadow: 0 0 10px black;
+}
+.nav a {
+    color: rgb(52, 52, 138);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+section {
+    display: flex;
+}
+.left {
+    width: 25%;
+    padding-left: 30px;
+}
+.left .menu {
+    height: 50%;
+}
+.left .menu h2 {
+    font-size: 22px;
+}
+.left .menu ul {
+    font-size: 15px;
+    width: 50%;
+    line-height: 1.5;
+    padding-left: 40px;
+}
+.left .menu ul a {
+    color: rgb(52, 52, 138);
+}
+.left .block {
+    height: 40%;
+}
+.left .block p {
+    font-size: 15px;
+    color: rgb(52, 52, 138);
+    line-height: 1.5;
+}
+.right {
+    width: 75%;
+    padding-right: 10px;
+}
+.right p {
+    color: rgb(52, 52, 138);
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.right ul {
+    color: rgb(52, 52, 138);
+    font-size: 15px;
+    padding-left: 30px;
+    line-height: 2;
+}
+footer p {
+    color: rgb(52, 52, 138);
+    font-size: 15px;
+    text-align: center;
+}

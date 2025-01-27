@@ -1,0 +1,44 @@
+body {
+     background-color: #CAF0F8;
+     margin:0 ;
+     padding: 0;
+     margin-top: -22px;
+}
+h1 {
+font-family: times new roman;
+letter-spacing: 1px;
+word-spacing: 1.5px;
+display:flex;
+text-align:center;
+align-items:center;
+justify-content: center;
+background-color: #1CA7EC;
+height: 10%;
+padding: 20px;
+}
+
+fieldset {
+margin: 0 50px;
+padding: 10px ;
+padding-left: 30px;
+border-radius: 15px;
+
+}
+
+select {
+padding:5px;
+border:none;
+border-radius:5px;
+}
+
+input {
+padding:6px;
+border:none;
+border-radius:5px;
+}
+
+span {
+color: red;
+margin-right: 15px;
+}
+
