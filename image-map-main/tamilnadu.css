@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(187, 230, 255);
+}
+.main {
+    display: flex;
+}
+.img {
+    width: 50%;
+    margin-top: 5%;
+}
+.details {
+    width: 50%;
+    margin-top: 5%;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(25, 25, 85);
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+a {
+    font-size: 23px;
+    color: green;
+}
+img {
+    margin-left: 37%;
+}
+
+table {
+    font-size: 23px;
+    line-height: 2;
+}
+th {
+    text-align: left;
+}
+td {
+    padding-left: 30px;
+}

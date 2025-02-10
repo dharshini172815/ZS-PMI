@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="sticky">
+    <p style="font-size: 25px;">Image Gallery</p>
+    <ul>
+      <li><a href="#position">Positions</a></li>
+      <li><a href="#flexbox">FlexBox</a></li>
+      <li><a href="#grid">Grid</a></li>
+    </ul>
+  </div>
+  <section class="position" id="position">
+    <div class="static">
+      <h1>Positions</h1>
+    </div>
+    <div class="relative">
+      <h1 style="color: black; font-size: 25px;padding: 30px;">Its relative block</h1>
+      <div class="absolute">
+        <h1 style="color: rgb(0, 0, 0); font-size: 25px; padding: 30px;">Its a absolute block</h1>
+        <img src="img1.jfif" class="img1" alt="" height="150px" width="300px">
+        <img src="img2.jfif" class="img2" alt="" height="150px" width="300px">
+        <img src="img3.jfif" class="img3" alt="" height="150px" width="300px">
+        <img src="img4.jfif" class="img4" alt="" height="150px" width="300px">
+        <img src="img5.jfif" class="img5" alt="" height="150px" width="300px">
+        <img src="img6.jfif" class="img6" alt="" height="150px" width="300px">
+      </div>
+    </div>
+    <div class="fixed">
+      <img src="/fixed.png" alt="" height="70px" width="60px">
+    </div>
+  </section>
+  <section class="flexbox" id="flexbox">
+    <h1>FlexBox</h1>
+    <div class="gallery">
+      <div class="image">
+        <img src="/img1.jfif" alt="Image 1">
+        <p>Image 1</p>
+      </div>
+      <div class="image">
+        <img src="/img2.jfif" alt="Image 2">
+        <p>Image 2</p>
+      </div>
+      <div class="image">
+        <img src="/img3.jfif" alt="Image 3">
+        <p>Image 3</p>
+      </div>
+      <div class="image">
+        <img src="/img4.jfif" alt="Image 4">
+        <p>Image 4</p>
+      </div>
+      <div class="image">
+        <img src="/img5.jfif" alt="Image 5">
+        <p>Image 5</p>
+      </div>
+      <div class="image">
+        <img src="/img6.jfif" alt="Image 6">
+        <p>Image 6</p>
+      </div>
+    </div>
+  </section>
+  <section class="grid" id="grid">
+    <h1>GRID</h1>
+    <div class="gallery1">
+
+      <img class="four-grid-cells" src="g1.jpeg" alt="Northern Winter Sky Image" />
+      <img src="g2.jpeg" alt="Shining Stars Image" />
+      <img class="wide-image" src="g3.jpeg" alt="A River Flowing Image" />
+      <img src="g4.jpeg" alt="A cloudy Mountain Image" />
+      <img src="g5.jpeg" alt="A Winter Rainbow Image" />
+      <img class="wide-image" src="g6.jpeg" alt="A Clean Mountain Lake" />
+      <img src="g7.jpeg" alt="Shining Stars Image" />
+
+    </div>
+    
+  </section>
+</body>
+
+</html>
